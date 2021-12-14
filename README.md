@@ -1,4 +1,4 @@
-# Aiconnect_21_Action_Recognition
+# Data Science and Security Final Project
  
 ## Summary 
 ![ex_screenshot](./img/summary.jpg)
