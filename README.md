@@ -3,6 +3,9 @@
 ## Summary 
 ![ex_screenshot](./img/summary.jpg)
 
+## Channel Pruning (CP) module
+![ex_screenshot](./img/pruned_img.jpg)
+
 ## Data Path 
 
 ```
