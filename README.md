@@ -108,20 +108,3 @@ cd mmdetection
 # train model3
 ~/aiconnect_action/mmdetection$ bash tools/dist_train.sh configs/faster_rcnn/faster_rcnn_r50_fpn_1x_coco.py 4 --work-dir data/results/model3 --seed 0 --deterministic
 ```
-
-
-## Result
-
-
-|      | **실험**                                                     |**Public**          |
-| ---- | ------------------------------------------------------------ | -------------------|
-| v1   | Baseline  (TSM-ResNet50)(Aug X)                              | 0.298              |
-| v2   | + Heavy Aug                                                  | 0.413              |
-| v3   | + Umbrella Processing                                        | 0.466              |
-| v4   | + Oversampling ensemble                                      | 0.486              |
-| v5   | + Naive Postprocessing                                       | 0.490              |
-| v6   | + Detection Model                                            | **0.559**          |
-
-
-## LeaderBoard 
-![ex_screenshot](./img/leaderboard.JPG)
